@@ -6,3 +6,22 @@ Verde: #49a09d
 lilas: #5f2c82
 
 */
+
+img {
+    
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    color: #333;
+}
