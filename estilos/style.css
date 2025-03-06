@@ -52,15 +52,15 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div#imagens {
+section#login > div#imagem {
+
    background: url(../imagens/pexels-sean-whang-25006-804269.jpg);
+
    background-size: cover;
-   width: 100%;
+   background-position: left bottom;
    height: 200px;
-   background-color: #49a09d;
    display: block;
-   justify-content: center;
-   align-items: center;
+  
 }
 
 section#login > div#formulario {
