@@ -82,6 +82,10 @@ p {
     text-align: center;
 }
 
+form > 
+
+
+
 form > button[type=submit] {
     display: block;
     font-size: 1em;
@@ -133,3 +137,4 @@ form > div > a.esqueci {
 form > div > a.esqueci:hover {
     background-color: #6e5e5e;
 }
+
