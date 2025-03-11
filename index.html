@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="imagens/rede.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
@@ -18,11 +19,18 @@
 
             <div id="formulario">
                 <form action="login.php" method="POST">
-                    <h1>Login</h1>
-                    <input type="text" name="usuario" placeholder="Usuário" required>
-                    <input type="password" name="senha" placeholder="Senha" required>
+                    <h1>Login</h1>                    
+
+                    <span class="material-symbols-outlined"> home</span>
+
+                    <input type="text" name="usuario" placeholder="Usuário" required minlength="8" maxlength="20">
+
+                    <span class="material-symbols-outlined">Key </span>
+                    <input type="password" name="senha" placeholder="Senha" required minlength="4" maxlength="20">
                     <button type="submit">Entrar</button>
                     <a href="cadastro.php">Cadastre-se</a>
+                    <br>
+                    <a href="cadastro.php">Esqueci a Senha</a>
                   
                 </form>
                 <p>Seja bem vindo novamente</p>
