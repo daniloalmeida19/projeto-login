@@ -71,7 +71,7 @@ section#login > div#formulario {
 
 div#formulario > h1{
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -79,6 +79,7 @@ p {
     font-size: 0.8em;
     line-height: 1.5em;
     color: #333;
+    text-align: center;
 }
 
 form > button[type=submit] {
@@ -124,7 +125,9 @@ form > div > a.esqueci {
     text-decoration: none;
     color: white;
     margin-top: 2px;
-    border-radius: 5px;
+    border: black;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 40px;
 }
 
 form > div > a.esqueci:hover {
