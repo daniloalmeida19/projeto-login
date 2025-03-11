@@ -18,7 +18,7 @@
             </div>
 
             <div id="formulario">
-                <form action="login.php" method="POST">
+                <form action="login.php" method="POST" autocomplete="on">
                     <h1>Login</h1>                    
 
                     <span class="material-symbols-outlined"> home</span>
@@ -26,11 +26,16 @@
                     <input type="text" name="usuario" placeholder="Usuário" required minlength="8" maxlength="20">
 
                     <span class="material-symbols-outlined">Key </span>
+
                     <input type="password" name="senha" placeholder="Senha" required minlength="4" maxlength="20">
+                    
                     <button type="submit">Entrar</button>
-                    <a href="cadastro.php">Cadastre-se</a>
-                    <br>
-                    <a href="cadastro.php">Esqueci a Senha</a>
+
+                    <div id="links">
+                        <a href="cadastro.php" class="botao">Cadastre-se</a>
+                        <br>
+                        <a href="cadastro.php" class="esqueci">Esqueci a Senha</a>
+                    </div>
                   
                 </form>
                 <p>Seja bem vindo novamente</p>
