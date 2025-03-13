@@ -82,7 +82,6 @@ p {
     text-align: center;
 }
 
-
 form > button[type=submit] {
     display: block;
     font-size: 1em;
@@ -105,6 +104,7 @@ form > div > a.botao {
     height: 40px;
     background-color: #14dad3;
     color: white;
+    border: 2px solid black;
     border-radius: 5px;
     text-align: center;
     line-height: 40px;
@@ -125,8 +125,8 @@ form > div > a.esqueci {
     background-color: red;
     text-decoration: none;
     color: white;
-    margin-top: .10px;
-    border: black;
+    margin-top:.6px;
+    border: 2px solid black;
     border-radius: 5px;
     line-height: 40px;
 }
